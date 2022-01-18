@@ -3,7 +3,13 @@
 #include<unistd.h>
 int main(void){
 
-	printf("I am good man\n");
+	
+	//加一行备注
+	//
+	
+	
+	printf(" i am bad man");
+	
 	return 0;
 
 }
