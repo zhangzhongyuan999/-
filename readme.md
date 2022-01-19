@@ -43,7 +43,7 @@
 	2. 有序列表2.2
 3. 有序列表三
 
-## Markdowm 区块引用效果
+## Markdown 区块引用效果
 
 > 第一层区块引用
 >> 第二层区块引用
@@ -51,8 +51,30 @@
 >>>> 第四层区块引用
 
 
+# Markdown 插入代码块
 
+```C
+	#include<stdio.h>
+	int main(void){
+		printf("C output..\n");
+		return 0;
+	}
 
+```
+```cpp
+	#include<iostream>
+	using namespace std;
+
+	int main(void){
+		cout<<"C++ output"<<endl;
+	}
+```
+
+```bash
+	sudo apt-get install pip3
+	echo "数据回显"
+	netstate -apn
+```
 
 
 
